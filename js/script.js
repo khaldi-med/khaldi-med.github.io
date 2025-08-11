@@ -1,7 +1,6 @@
-// Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     
-    // Loading Screen
+/*     // Loading Screen
     window.addEventListener('load', function() {
         setTimeout(function() {
             const loader = document.querySelector('.loader-wrapper');
@@ -9,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 loader.classList.add('fade-out');
             }
         }, 1000);
-    });
+    }); */
 
     // Mobile Navigation Toggle
     const hamburger = document.getElementById('hamburger');
